@@ -60,3 +60,20 @@ body {
   background-color: #2c71b8;
   color: #fff;
 }
+.form {
+  border: #2c71b8 1px solid;
+  width: 200px;
+  height: 40px;
+  margin-top: 7px;
+}
+input {
+  border: 0px;
+  background-color: transparent;
+  outline: none;
+  width: 160px;
+  height: 40px;
+}
+.icon_4p {
+  background-color: #2c71b8;
+  padding: 5px;
+}
