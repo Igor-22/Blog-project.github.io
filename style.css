@@ -92,19 +92,17 @@ input {
   background-color: #fff;
 }
 .sub-menu-list {
-  display: none;*/
+  display: none;
   margin-left: -1px;
   position: absolute;
   background-color: #2c71b8;
-  
 }
 .sub-menu-list li {
   float: none;
   min-width: 286px;
   border: none;
 }
-.sub-menu-list li:hover{
-  
+.sub-menu-list li:hover {
   cursor: pointer;
 }
 .sub-menu-list a {
@@ -119,9 +117,11 @@ input {
 .menu > li:hover .sub-menu-list {
   display: block;
   margin-left: -1px;
-  
 }
-
-.arrow{
+li:hover a {
+  background-color: #2c71b8;
+  color: #fff;
+}
+.arrow {
   padding-left: 4px;
 }
