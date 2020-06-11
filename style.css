@@ -121,6 +121,7 @@ input {
   margin-left: -1px;
   
 }
-/*.arrow{
-  background-image: url(img/iconfinder_arrow-down-01_186411.png);
-}*/
+
+.arrow{
+  padding-left: 4px;
+}
