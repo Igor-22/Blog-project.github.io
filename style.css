@@ -147,9 +147,7 @@ li:hover a {
   background-color: rgba(255, 255, 255, 0.25);
   font-size: 17px;
 }
-.col-md-9-menu {
-  width: 75%;
-}
+
 .device {
   color: #fff;
 }
@@ -184,5 +182,58 @@ li:hover a {
 .main-p {
   margin: 30px 0px;
 }
+.col-md-9-menu {
+  width: 75%;
+}
+.block-menu-1 {
+  display: flex;
+}
+.block-menu-2 {
+  display: flex;
+}
+.block-menu-3 {
+  display: flex;
+}
 .h2-menu {
+  font-weight: 600;
+  font-size: 35px;
+  color: #fff;
+  margin: 70px 0px 30px 27px;
+}
+.block-menu {
+  width: 270px;
+  height: 655px;
+  border: 1px solid #fff;
+  margin: 31px 15px 30px 25px;
+}
+.block-menu-img {
+  width: 270px;
+  height: 180px;
+  text-align: center;
+  line-height: 245px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.menu-img {
+}
+.bord {
+  width: 30px;
+  height: 30px;
+  background-image: url(img/bord.png);
+  background-color: rgba(255, 255, 255, 0.75);
+  background-repeat: no-repeat;
+  background-position: center;
+  float: right;
+  margin: 10px 10px 10px -38px;
+  border: 1px solid #2c71b8;
+}
+.like {
+  width: 30px;
+  height: 30px;
+  background-image: url(img/like.png);
+  background-color: rgba(255, 255, 255, 0.75);
+  background-repeat: no-repeat;
+  background-position: center;
+  float: right;
+  margin: 50px 8px 10px -38px;
+  border: 1px solid #2c71b8;
 }
