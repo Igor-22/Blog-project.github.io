@@ -93,6 +93,19 @@ input {
   background-color: #fff;
 }*/
 .number {
+  position: absolute;
+  top: 21px;
+  margin-left: -11px;
+  min-width: 23px;
+  height: 23px;
+  padding: 1px 2px;
+  font-size: 17px;
+  line-height: 21px;
+  color: #fff;
+  text-align: center;
+  background: #2c71b8;
+  border-radius: 50%;
+  z-index: 10;
 }
 .basket {
   width: 40px;
