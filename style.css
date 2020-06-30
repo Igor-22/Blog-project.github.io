@@ -347,3 +347,18 @@ li:hover a {
 .product-container {
   padding-left: 15px;
 }
+.main-check {
+  position: absolute;
+  width: 10px;
+  margin: -11px -18px;
+}
+label:before {
+  content: "";
+  display: block;
+}
+input[type="checkbox"] {
+  /*display: none;*/
+}
+.main-check:checked + label:before {
+  background-color: red;
+}
