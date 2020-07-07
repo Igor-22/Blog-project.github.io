@@ -1,0 +1,241 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+.header {
+  background-color: #1d2126;
+  color: #929b9b;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  max-width: 1155px;
+  height: 80px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.col-md-6 {
+  display: flex;
+}
+.modests-log {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  font-weight: 800;
+  color: #fff;
+  cursor: pointer;
+}
+.underline {
+  text-decoration: underline;
+}
+.menu-home {
+  margin-right: 35px;
+  font-size: 12px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  border: 1.5px solid #39a492;
+  color: #39a492;
+  margin-bottom: 21px;
+  padding: 10px;
+  border-radius: 15%;
+  cursor: pointer;
+}
+.menu-other {
+  margin-right: 35px;
+  font-size: 12px;
+  margin-top: 35px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.menu-other:hover {
+  border: 1.5px solid #929b9b;
+  margin-bottom: 21px;
+  margin-top: 25px;
+  padding: 10px;
+  border-radius: 15%;
+  cursor: pointer;
+}
+.form {
+  border: #929b9b 1.5px solid;
+  border-radius: 5%;
+  width: 190px;
+  height: 30px;
+  margin: 25px 0px;
+}
+input {
+  border: 0px;
+  background-color: transparent;
+  outline: none;
+  width: 190px;
+  height: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-left: 6px;
+  padding-top: 3px;
+  color: #808889;
+}
+.icon_4p {
+  position: absolute;
+  margin-left: -50px;
+  margin-top: -9px;
+}
+.slider {
+  background-image: url(img/slider.png);
+  height: 660px;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+.sub-slider {
+  max-width: 1155px;
+  margin: 0px auto;
+  color: #929b9b;
+  padding-top: 225px;
+}
+.h2-slider {
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 35px;
+}
+.main-market {
+  font-size: 15px;
+  line-height: 21px;
+  margin-bottom: 45px;
+}
+.button {
+  width: 120px;
+  height: 40px;
+  border: #929b9b 1.5px solid;
+  border-radius: 10%;
+  background: rgba(255, 255, 255, 0.01);
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.button:hover {
+  cursor: pointer;
+  border: #23b7a4 1.5px solid;
+  border-radius: 10%;
+  background: #23b7a4;
+}
+.modests {
+  background-color: rgb(253, 253, 253);
+  height: 610px;
+  border-bottom: 1px solid #929b9b;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+.sub-modests {
+  max-width: 1155px;
+  margin: 0px auto;
+  display: flex;
+}
+.we_are_modest {
+  padding-top: 85px;
+  padding-left: 25px;
+  margin-bottom: 70px;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.a1 {
+  margin-bottom: 40px;
+  line-height: 20px;
+  font-size: 16px;
+  color: #929b9b;
+}
+.a2 {
+  font-size: 16px;
+  color: #929b9b;
+  line-height: 20px;
+  margin-bottom: 55px;
+}
+.log {
+  display: flex;
+}
+.log1-modest {
+  width: 60px;
+  height: 60px;
+  background-image: url(img/facebook.png);
+  background-color: #c8cdd0;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 1px;
+}
+.log2-modest {
+  width: 60px;
+  height: 60px;
+  background-image: url(img/twiter.png);
+  background-color: #c8cdd0;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 1px;
+}
+.log3-modest {
+  width: 60px;
+  height: 60px;
+  background-image: url(img/ball.png);
+  background-color: #c8cdd0;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 1px;
+}
+.log4-modest {
+  width: 60px;
+  height: 60px;
+  background-image: url(img/Be.png);
+  background-color: #c8cdd0;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 1px;
+}
+.log5-modest {
+  width: 60px;
+  height: 60px;
+  background-image: url(img/facebook.png);
+  background-color: #c8cdd0;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.num {
+  width: 50px;
+  height: 50px;
+  background-color: #39a493;
+  text-align: center;
+  line-height: 50px;
+  color: #ffe5e5;
+}
+
+.meet {
+  background-color: rgb(253, 253, 253);
+  height: 650px;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+.sub-meet {
+  max-width: 1155px;
+  margin: 0px auto;
+}
+.h2-meet {
+  padding-top: 85px;
+  padding-left: 25px;
+  margin-bottom: 65px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.box-people {
+  display: flex;
+  justify-content: space-between;
+}
+.people {
+  background-color: #e1e6ea;
+  height: 375px;
+}
+.name {
+  padding: 17px;
+}
+.name-p {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
